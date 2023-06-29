@@ -32,4 +32,5 @@ An example web app is located at : https://kyro.ckr0.repl.co ( Please note that 
 the app frequently. In case it doesn't work please deploy it for free on replit as detailed below.)
 
 You can also deploy this app in a few clicks on replit platform. Just select Github repo ( github.com/ckr0/kyro ) when creating 
-a new repl. Once the deployment is complete, you can click on the 'Run' button to start the app.
+a new repl. Once the deployment is complete, you can click on the 'Run' button to start the app(It may take a couple of minutes
+to load the modules).
