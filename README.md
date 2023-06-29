@@ -28,7 +28,8 @@ Linux/MacOs : python3 main.py
 Now you can access the web app by opening the URL (localhost:5000) in any web browser. On the main page of the website enter the 
 URL into the textbox and click 'Submit'. The predicted category will be displayed below alomg with the history of all submissions.
 
-An example web app is located at : https://kyro.ckr0.repl.co
+An example web app is located at : https://kyro.ckr0.repl.co ( Please note that this example app may not run always as replit kills
+the app frequently. In case it doesn't work please deploy it for free on replit as detailed below.)
 
 You can also deploy this app in a few clicks on replit platform. Just select Github repo ( github.com/ckr0/kyro ) when creating 
 a new repl. Once the deployment is complete, you can click on the 'Run' button to start the app.
