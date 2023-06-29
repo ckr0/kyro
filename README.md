@@ -14,7 +14,7 @@ Database: A sqlite3 database is used to store the input urls and ouput news cate
 
 Web server: This website is powered by flask, a popular web server python module.
 
-Local Deployment : The app can be deployed locally by cloning the repository ( https://https://github.com/ckr0/kyro ) on to your 
+Local Deployment : The app can be deployed locally by cloning the repository ( https://github.com/ckr0/kyro ) on to your 
 local machine. 
 
 Please make sure that all the python modules mentioned in the requirements.txt file are installed. You can use the following 
