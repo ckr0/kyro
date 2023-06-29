@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block data %}
+<form method="POST">
+            <h3 align="center">Input the URL of economictimes.com article to know its category</h3>
+            <div class="form-group">
+            <label for="url"></label>
+            <input type="text" class="form-control" id="url" name="url" placeholder="Enter news article URL">
+            </div>
+            <br/>
+            <button type="submit" class="btn btn-dark">Submit</button>
+            <h1 align="center">The category of article is :</h1>
+            <p>{{ prediction }}</p>
+            <h3 align="center">Article Search History :</h3>
+            <table id="data" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>URL</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for url in urls %}
+                        <tr>
+                            <td>{{url.id}}</td>
+                            <td>{{url.url}}</td>
+                            <td>{{url.category}}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+</form>
+{% endblock %}
